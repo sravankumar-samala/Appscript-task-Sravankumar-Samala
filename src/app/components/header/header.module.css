@@ -1,0 +1,25 @@
+.headerMainContainer {
+  position: relative;
+  padding: 1em;
+}
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blue; */
+}
+.logoImageContainer {
+  width: clamp(30px, 6vw, 40px);
+  z-index: 99;
+}
+.headerLogoTitle {
+  background-color: green;
+}
+
+.headerMainContainer h1 {
+  position: absolute;
+  inset: 0;
+  text-align: center;
+  margin: 0;
+  z-index: 9;
+}

@@ -1,0 +1,7 @@
+.headerMenu {
+  display: flex;
+}
+.headerMenu p {
+  cursor: pointer;
+  z-index: 99;
+}
