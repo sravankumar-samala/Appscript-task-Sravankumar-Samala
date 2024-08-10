@@ -1,7 +1,8 @@
 .headerMenu {
   display: flex;
+  gap: min(10px, 5vw);
 }
-.headerMenu p {
+.headerMenu > * {
   cursor: pointer;
   z-index: 99;
 }
